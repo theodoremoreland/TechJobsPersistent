@@ -17,7 +17,6 @@ public class Job{
     public Job() {
     }
 
-    // Initialize the id and value fields.
     public Job(String anEmployer, String someSkills) {
         super();
         this.employer = anEmployer;
