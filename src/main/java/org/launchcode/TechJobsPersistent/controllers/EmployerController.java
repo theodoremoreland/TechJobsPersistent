@@ -1,6 +1,6 @@
-package org.launchcode.javawebdevtechjobspersistent.controllers;
+package org.launchcode.TechJobsPersistent.controllers;
 
-import org.launchcode.javawebdevtechjobspersistent.models.Employer;
+import org.launchcode.TechJobsPersistent.models.Employer;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.validation.Errors;

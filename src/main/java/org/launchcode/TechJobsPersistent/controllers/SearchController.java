@@ -1,15 +1,15 @@
-package org.launchcode.javawebdevtechjobspersistent.controllers;
+package org.launchcode.TechJobsPersistent.controllers;
 
-import org.launchcode.javawebdevtechjobspersistent.models.Job;
-import org.launchcode.javawebdevtechjobspersistent.models.JobData;
-import org.launchcode.javawebdevtechjobspersistent.models.data.JobRepository;
+import org.launchcode.TechJobsPersistent.models.Job;
+import org.launchcode.TechJobsPersistent.models.JobData;
+import org.launchcode.TechJobsPersistent.models.data.JobRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
 
 
-import static org.launchcode.javawebdevtechjobspersistent.controllers.ListController.columnChoices;
+import static org.launchcode.TechJobsPersistent.controllers.ListController.columnChoices;
 
 /**
  * Created by LaunchCode

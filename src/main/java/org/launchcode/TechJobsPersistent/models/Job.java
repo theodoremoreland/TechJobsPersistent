@@ -1,4 +1,4 @@
-package org.launchcode.javawebdevtechjobspersistent.models;
+package org.launchcode.TechJobsPersistent.models;
 
 import javax.persistence.*;
 
