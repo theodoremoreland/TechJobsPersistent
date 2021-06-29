@@ -1,6 +1,6 @@
-package org.launchcode.javawebdevtechjobspersistent.models.data;
+package org.launchcode.TechJobsPersistent.models.data;
 
-import org.launchcode.javawebdevtechjobspersistent.models.Job;
+import org.launchcode.TechJobsPersistent.models.Job;
 import org.springframework.data.repository.CrudRepository;
 import org.springframework.stereotype.Repository;
 
