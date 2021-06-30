@@ -12,6 +12,7 @@ public class Job{
     private String name;
 
     private String employer;
+
     private String skills;
 
     public Job() {
