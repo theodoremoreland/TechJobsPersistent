@@ -1,4 +1,7 @@
 ## Part 1: Test it with SQL
+use techjobs;
+
+SHOW COLUMNS FROM job;
 
 ## Part 2: Test it with SQL
 
