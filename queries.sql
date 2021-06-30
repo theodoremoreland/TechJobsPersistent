@@ -4,6 +4,14 @@ use techjobs;
 SHOW COLUMNS FROM job;
 
 ## Part 2: Test it with SQL
+use techjobs;
+
+SELECT
+	name
+FROM employer
+WHERE
+	location = "Saint Louis"
+;
 
 ## Part 3: Test it with SQL
 
