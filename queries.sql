@@ -1,10 +1,11 @@
-## Part 1: Test it with SQL
-use techjobs;
+-- List the columns and their data types from the job table.
+USE techjobs;
 
 SHOW COLUMNS FROM job;
 
-## Part 2: Test it with SQL
-use techjobs;
+
+-- Write a query to list the names of the employers in St. Louis City.
+USE techjobs;
 
 SELECT
 	name
@@ -13,6 +14,23 @@ WHERE
 	location = "Saint Louis"
 ;
 
-## Part 3: Test it with SQL
 
-## Part 4: Test it with SQL
+-- Write a SQL statement to remove the job table.
+USE techjobs;
+
+DROP TABLE job;
+
+
+-- Write a query to return a list of the names and descriptions of all skills that are attached to jobs in alphabetical order.
+-- If a skill does not have a job listed, it should not be included in the results of this query.
+USE techjobs;
+
+SELECT
+	name
+    , description
+FROM skill s
+JOIN job_skills js
+	ON s.id = js.skills_id
+ORDER BY
+	name ASC
+;
